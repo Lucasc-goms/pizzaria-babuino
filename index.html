@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pizzaria do Babuíno</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header>
+    <h1>🍕 Pizzaria do Babuíno
+      <span>Desde 1960 — Receitas de geração em geração</span>
+    </h1>
+    <p>As melhores receitas de pizza da cidade, feitas com carinho!</p>
+  </header>
+
+  <nav>
+    <a href="#sobre">Sobre</a>
+    <a href="#institucional">Missão & Valores</a>
+    <a href="#cardapio">Cardápio</a>
+    <a href="#contato">Contato</a>
+  </nav>
+
+  <main>
+
+    <section id="boas-vindas">
+      <h2>Bem-vindo</h2>
+      <p>Seja bem-vindo ao lar das melhores receitas de pizza! Aqui a fome não tem vez.</p>
+    </section>
+
+    <section id="institucional">
+      <ul class="institucional-grid">
+        <li>
+          <h2>Missão</h2>
+          <p>Espalhar felicidade e união através das nossas receitas artesanais.</p>
+        </li>
+        <li>
+          <h2>Visão</h2>
+          <p>Ser uma das grandes referências de mercado no quesito qualidade e sabor.</p>
+        </li>
+        <li>
+          <h2>Valores</h2>
+          <p>Qualidade e sabor são os pilares fundamentais que nos guiam a cada preparo.</p>
+        </li>
+      </ul>
+    </section>
+
+    <section id="sobre">
+      <h2>Sobre nós</h2>
+      <p>Somos uma pizzaria familiar que busca qualidade e sabor inigualável. Nosso desejo é espalhar nosso conhecimento de gerações através das receitas.</p>
+      <p>Passando nosso legado desde 1960, mantendo a qualidade em cada preparo, com receitas únicas e próprias.</p>
+
+      <div class="galeria-fotos">
+        <img src="https://thumbs.dreamstime.com/b/os-cozinheiros-chefe-felizes-team-posi%C3%A7%C3%A3o-junto-na-cozinha-comercial-96343285.jpg" alt="Pizzaiolos em fila, todos com uniformes brancos de cozinha" width="300" height="200">
+        <img src="https://img.freepik.com/fotos-gratis/em-close-up-uma-pessoa-a-cozinhar_23-2150980258.jpg" alt="Pessoa fazendo uma pizza em uma bancada de madeira, com tomates na mesa" width="300" height="200">
+      </div>
+    </section>
+
+    <section id="cardapio">
+      <h2>🍕 Cardápio</h2>
+      <p class="subtitulo-cardapio">Descubra um mundo de possibilidades...</p>
+
+      <ul class="cardapio-grid">
+        <li>
+          <span class="sabor">Calabresa</span>
+          <p>Nossa massa artesanal, coberta com molho de tomate, muçarela premium, calabresa defumada e cebolas caramelizadas.</p>
+        </li>
+        <li>
+          <span class="sabor">Frango com Catupiry</span>
+          <p>Frango desfiado com muçarela e o legítimo Catupiry®, garantindo cremosidade em cada fatia.</p>
+        </li>
+        <li>
+          <span class="sabor">Portuguesa</span>
+          <p>Presunto, muçarela, ovos, ervilhas, cebola roxa e pimentões sobre massa crocante.</p>
+        </li>
+        <li>
+          <span class="sabor">Quatro Queijos</span>
+          <p>Muçarela, provolone, parmesão e gorgonzola — uma explosão de sabores.</p>
+        </li>
+        <li>
+          <span class="sabor">À Moda da Casa</span>
+          <p>Presunto, lombo, Catupiry®, ovos, bacon e palmito com nosso toque especial.</p>
+        </li>
+        <li>
+          <span class="sabor">Fruta com Creme (doce)</span>
+          <p>Massa artesanal, creme de custard, morangos frescos, marshmallows gratinados e calda de chocolate amargo.</p>
+        </li>
+      </ul>
+    </section>
+
+    <section class="chamada-receita">
+      <span>Faça você mesmo →</span>
+      <a href="./receitas.html" class="botao-link">Mãos na Massa</a>
+    </section>
+
+    <section id="contato">
+      <h2>Fale Conosco</h2>
+      <form action="https://formsubmit.co/candidolucas2302@gmail.com" method="POST">
+
+        <!-- Configurações do FormSubmit -->
+        <input type="hidden" name="_subject" value="Nova mensagem do site da pizzaria!">
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_next" value="http://127.0.0.1:5500/obrigado.html">
+
+
+        <!-- Nome -->
+        <label for="nome">Nome</label>
+        <input id="nome" name="nome" type="text" placeholder="Seu nome" required>
+
+        <!-- Email -->
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email" placeholder="Seu email" required>
+
+        <!-- Mensagem -->
+        <label for="msg">Mensagem</label>
+        <textarea id="msg" name="mensagem" placeholder="Digite sua mensagem" rows="5" required></textarea>
+
+        <!-- Botão -->
+        <button type="submit">Enviar Mensagem</button>
+
+
+      </form>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>© 2026 Pizzaria do Babuíno &nbsp;·&nbsp; (19) 123456789 &nbsp;·&nbsp; @PizzaariadoBabuino</p>
+  </footer>
+
+</body>
+
+</html>
