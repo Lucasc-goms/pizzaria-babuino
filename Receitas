@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Receitas — Pizzaria do Babuíno</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header>
+    <h1>🍕 Pizzaria do Babuíno
+      <span>Desde 1960 — Receitas de geração em geração</span>
+    </h1>
+    <p>Aprenda a fazer a verdadeira pizza artesanal!</p>
+  </header>
+
+  <nav>
+    <a href="./index.html">← Início</a>
+    <a href="./index.html#cardapio">Cardápio</a>
+    <a href="./index.html#contato">Fale Conosco</a>
+  </nav>
+
+  <main>
+
+    <div class="topo-receitas">
+      <h2>Guia Completo da Pizza Caseira</h2>
+      <p>Siga o passo a passo para criar a massa perfeita e rechear como um profissional.</p>
+    </div>
+
+    <div class="Grid-receita-topo">
+
+      <div class="bloco-receita" id="bloco-planejamento">
+        <h3>⏱️ Planejamento</h3>
+        <p><strong>Preparo da massa:</strong> 20 minutos</p>
+        <p><strong>Descanso:</strong> 1 hora</p>
+        <p><strong>Montagem + forno:</strong> 20 minutos</p>
+        <p class="destaque-tempo"><strong>Tempo total:</strong> Cerca de 1h40</p>
+        <p class="alerta"><strong>Importante:</strong> Pré-aqueça o forno no máximo por 15 minutos antes de assar.</p>
+      </div>
+
+      <div class="bloco-receita" id="bloco-ingredientes">
+        <h3>🧂 Ingredientes da Massa</h3>
+        <p class="sub-ingrediente">(Rende 2 pizzas médias)</p>
+        <ul>
+          <li>500g de farinha de trigo</li>
+          <li>1 copo (200ml) de água morna</li>
+          <li>1 colher de sopa de açúcar</li>
+          <li>1 colher de chá de sal</li>
+          <li>5g de fermento biológico seco</li>
+          <li>3 colheres de sopa de óleo ou azeite</li>
+          <li>Farinha extra para abrir a massa</li>
+        </ul>
+      </div>
+
+    </div>
+
+    <div class="bloco-receita" id="bloco-preparo">
+      <h3>🤌 Modo de Preparo da Massa</h3>
+
+      <div class="passo">
+        <h4>1. Ativando o fermento</h4>
+        <p>Misture água morna, açúcar e fermento. Deixe descansar por 5 a 10 minutos até formar espuma.</p>
+        <p class="dica-interna"><strong>Dica:</strong> Se não espumar, o fermento pode estar ruim ou a água quente demais.</p>
+      </div>
+
+      <div class="passo">
+        <h4>2. Formação da massa</h4>
+        <p>Adicione o óleo e vá colocando a farinha aos poucos, misturando até formar uma massa. Adicione o sal somente depois que a massa começar a ganhar forma.</p>
+      </div>
+
+      <div class="passo">
+        <h4>3. Sova</h4>
+        <p>Sove por 10 a 15 minutos até a massa ficar lisa e elástica. Empurre a massa com a palma da mão, dobre, gire e repita o processo.</p>
+      </div>
+
+      <div class="passo">
+        <h4>4. Descanso</h4>
+        <p>Deixe a massa descansar tampada por 1 hora até dobrar de tamanho.</p>
+        <p class="dica-interna"><strong>Dica:</strong> Se o dia estiver frio, coloque a vasilha dentro do forno desligado.</p>
+      </div>
+
+      <div class="passo">
+        <h4>5. Abrindo a massa</h4>
+        <p>Retire o ar da massa apertando levemente, divida em 2 partes e abra com um rolo ou garrafa limpa. <strong>Espessura ideal:</strong> fina no centro e mais grossinha nas bordas.</p>
+      </div>
+
+      <div class="passo-final">
+        <h4>Pré-assar</h4>
+        <p>Fure o centro da massa aberta com um garfo (para não estufar) e leve ao forno alto por 5 a 10 minutos antes de colocar o recheio.</p>
+      </div>
+    </div>
+
+    <div class="secao-montagem">
+      <h3>👩‍🍳 Montagem das Pizzas</h3>
+      <p class="sub-montagem">Como rechear cada um dos nossos sabores clássicos:</p>
+
+      <div class="grid-montagem">
+
+        <div class="mini-card-recheio">
+          <h4>Calabresa</h4>
+          <p>Molho de tomate, muçarela, calabresa fatiada fina e rodelas de cebola. <em>Coloque o orégano só após tirar do forno!</em></p>
+        </div>
+
+        <div class="mini-card-recheio">
+          <h4>À Moda da Casa</h4>
+          <p>Molho de tomate, muçarela, presunto, bacon pré-frito, palmito e ovos cozidos picados. <em>Escorra bem os ingredientes úmidos.</em></p>
+        </div>
+
+        <div class="mini-card-recheio">
+          <h4>Frango com Catupiry</h4>
+          <p>Molho de tomate, frango desfiado e refogado, cobertura de muçarela e o legítimo Catupiry® por cima fazendo o desenho clássico.</p>
+        </div>
+
+        <div class="mini-card-recheio">
+          <h4>Portuguesa</h4>
+          <p>Molho de tomate, muçarela, presunto fatiado, ervilhas, cebola roxa e ovos cozidos fatiados.</p>
+        </div>
+
+        <div class="mini-card-recheio">
+          <h4>Quatro Queijos</h4>
+          <p>Molho de tomate (opcional), muçarela, pedacinhos de gorgonzola, provolone e parmesão ralado por cima.</p>
+        </div>
+
+        <div class="mini-card-recheio-doce">
+          <h4>🍓 Pizza Doce</h4>
+          <p>Pré-asse a massa pura. Adicione creme de custard e marshmallows. Deixe derreter no forno por 5 min. Finalize com morangos frescos e fios de chocolate.</p>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="bloco-voltar">
+      <a href="./index.html" class="botao-link">← Voltar para a Página Inicial</a>
+    </div>
+
+  </main>
+
+  <footer>
+    <p>© 2026 Pizzaria do Babuíno &nbsp;·&nbsp; (19) 123456789 &nbsp;·&nbsp; @PizzaariadoBabuinoo</p>
+  </footer>
+
+</body>
+
+</html>
